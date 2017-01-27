@@ -15,7 +15,7 @@ body {
   height: 1920px;
 }
 .wrapper {
-  margin: 140px auto 0;
+  margin: 100px auto 0;
   width: 1000px;
   height: 1920px;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 .third {
-  margin-top: 400px;
+  margin-top: 360px;
   font-size: 411.6px;
   vertical-align: baseline;
 }
