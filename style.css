@@ -58,7 +58,8 @@ body {
   padding-left: 60px;
   vertical-align: 20px;
   font-size: 80%;
-  border-left: 10px solid black;
+  border-left: 12px solid black;
+  line-height: 1.0;
 }
 
 #hour {
