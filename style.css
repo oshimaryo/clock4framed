@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  /*font-feature-settings : "palt";*/
+
+  font-family :
+    YuMincho,    /* Mac用 */
+    'Yu Mincho', /* Windows用 */
+    serif;
+}
+
+body {
+  width: 1080px;
+  height: 1920px;
+}
+.wrapper {
+  margin: 140px auto 0;
+  width: 960px;
+  height: 1920px;
+}
+
+.first {
+  font-size: 274.4px;
+  vertical-align: baseline;
+}
+
+.second {
+  font-size: 457.33px;
+  vertical-align: baseline;
+}
+
+.third {
+  margin-top: 400px;
+  font-size: 411.6px;
+  vertical-align: baseline;
+}
+
+#year {
+  font-size: 100%;
+}
+
+.slash {
+  font-size: 100%;
+}
+#month {
+  font-size: 100%;
+}
+
+#date {
+  display: inline-block;
+  padding-right: 60px;
+  font-size: 100%;
+}
+
+#day {
+  display: inline-block;
+  padding-left: 60px;
+  vertical-align: 20px;
+  font-size: 80%;
+  border-left: 10px solid black;
+}
+
+#hour {
+  font-size: 100%;
+}
+
+.colon {
+  vertical-align: 40px;
+}
+
+#minute {
+  font-size: 100%;
+}
