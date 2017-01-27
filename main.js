@@ -1,8 +1,8 @@
-document.addEventListener('DOMContentLoaded', (e) => {
-  const DAYS = ['日', '月', '火', '水', '木', '金', '土'];
-  const clock = () => {
-    const now = new Date();
-    const current = {
+document.addEventListener('DOMContentLoaded', function(e){
+  var DAYS = ['日', '月', '火', '水', '木', '金', '土'];
+  var clock = function(){
+    var now = new Date();
+    var current = {
       'year': now.getFullYear(),
       'month': (now.getMonth() + 1 < 10) ? '0' + (now.getMonth() + 1) : now.getMonth() + 1,
       'date': now.getDate(),
