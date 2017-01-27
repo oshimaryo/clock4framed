@@ -51,6 +51,9 @@ body {
   display: inline-block;
   padding-right: 60px;
   font-size: 100%;
+  line-height: 0.8;
+  border-right: 12px solid black;
+}
 }
 
 #day {
@@ -58,7 +61,7 @@ body {
   padding-left: 60px;
   vertical-align: 20px;
   font-size: 80%;
-  border-left: 12px solid black;
+  /*border-left: 12px solid black;*/
   line-height: 1.0;
 }
 
