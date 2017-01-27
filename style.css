@@ -21,6 +21,7 @@ body {
 }
 
 .first {
+  height: 290px;
   font-size: 274.4px;
   vertical-align: baseline;
 }
@@ -31,7 +32,7 @@ body {
 }
 
 .third {
-  margin-top: 380px;
+  margin-top: 390px;
   font-size: 411.6px;
   vertical-align: baseline;
 }
