@@ -23,7 +23,7 @@
       var raw = navigator.userAgent.match(/Chrom(e|ium)\/([0-9]+)\./);
       return raw ? parseInt(raw[2], 10) : false;
     }
-    alert(getChromeVersion());
+    alert(navigator.userAgent);
     </script>
   </body>
 </html>
