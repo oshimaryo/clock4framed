@@ -1,18 +1,25 @@
-document.addEventListener('DOMContentLoaded', function(e){
-  var DAYS = ['日', '月', '火', '水', '木', '金', '土'];
-  var clock = function(){
-    var now = new Date();
-    var zeroPadding = function(val) {return (val < 10) ? '0' + val : val;};
+document.addEventListener('DOMContentLoaded', function (e) {
+  var DAYS = ['日', '月', '火', '水', '木', '金', '土']
+  var clock = function () {
+    var now = new Date()
+    var padZero = function (val) {
+      return `${val}`.padStart(2, '0')
+    }
     var current = {
-      'year': now.getFullYear(),
-      'month': zeroPadding(now.getMonth() + 1),
-      'date': zeroPadding(now.getDate()),
-      'day': DAYS[now.getDay()],
-      'hour': zeroPadding(now.getHours()),
-      'minute': zeroPadding(now.getMinutes())
-    };
-    for(key in current){ document.getElementById(key).innerHTML = current[key]; }
-  };
+      year: now.getFullYear(),
+      month: padZero(now.getMonth() + 1),
+      date: padZero(now.getDate()),
+      day: DAYS[now.getDay()],
+      hour: padZero(now.getHours()),
+      minute: padZero(now.getMinutes())
+    }
+    for (key in current) {
+      document.getElementById(key).innerHTML = current[key]
+    }
 
-  setInterval(clock, 100);
-});
+    var colon = document.querySelector('.colon')
+    colon.classList.toggle('hidden')
+  }
+
+  setInterval(clock, 500)
+})

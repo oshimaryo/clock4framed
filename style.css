@@ -4,10 +4,7 @@
   line-height: 1.2;
   /*font-feature-settings : "palt";*/
 
-  font-family :
-    YuMincho,    /* Mac用 */
-    'Yu Mincho', /* Windows用 */
-    serif;
+  font-family: YuMincho, /* Mac用 */ 'Yu Mincho', /* Windows用 */ serif;
 }
 
 body {
@@ -62,7 +59,7 @@ body {
   vertical-align: 20px;
   font-size: 80%;
   /*border-left: 12px solid black;*/
-  line-height: 1.0;
+  line-height: 1;
 }
 
 #hour {
@@ -71,6 +68,10 @@ body {
 
 .colon {
   vertical-align: 40px;
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 #minute {
